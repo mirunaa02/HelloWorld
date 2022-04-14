@@ -34,6 +34,11 @@ public class Turist {
 		System.out.println("Pachet ALL-Inclusive :"+PachetALL_Inclusive.Servicii());
 		System.out.println("Pachet Premium :"+PachetPremium.Servicii());
 		System.out.println("Pachet DELUX :"+PachetDELUX.Servicii());
+		
+		
+		System.out.println("-----------------");
+		System.out.println("--- Buna !! ---");
+		
 	}
 
 }
