@@ -40,7 +40,7 @@ public class Turist {
 		System.out.println("--- Buna !! ---");
 		
 		System.out.println("-----------------");
-		System.out.println("--- Buna 2 !! ---");
+		System.out.println("--- Buna iar !! ---");
 		
 	}
 
