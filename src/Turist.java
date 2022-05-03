@@ -1,6 +1,8 @@
-
 import java.util.List;
-
+/**
+ * @author Miruna
+ * @version 5/4/2022
+ */
 public class Turist {
 
 	public static void main(String[] args) throws CloneNotSupportedException{
