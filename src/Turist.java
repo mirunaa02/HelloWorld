@@ -4,6 +4,7 @@ import java.util.List;
 public class Turist {
 
 	public static void main(String[] args) throws CloneNotSupportedException{
+		/*
 		Hotel PachetDemi_Pensiune = new Hotel();
 		PachetDemi_Pensiune.ContinutPachet();
 		
@@ -28,19 +29,10 @@ public class Turist {
 		List<String>PachetEconomicContinut = PachetEconomic.Servicii();
 		PachetEconomicContinut.remove("Mic Dejun");
 		PachetEconomicContinut.remove("Loc Parcare");
-		
-		System.out.println("Pachet DemiPensiune :"+PachetDemi_Pensiune.Servicii());
-		System.out.println("Pachet Economic :"+PachetEconomic.Servicii());
-		System.out.println("Pachet ALL-Inclusive :"+PachetALL_Inclusive.Servicii());
-		System.out.println("Pachet Premium :"+PachetPremium.Servicii());
-		System.out.println("Pachet DELUX :"+PachetDELUX.Servicii());
+		*/
 		
 		
-		System.out.println("-----------------");
-		System.out.println("--- Buna !! ---");
-		
-		System.out.println("-----------------");
-		System.out.println("--- Buna iar !! ---");
+		System.out.println("Loc de parcare");
 		
 	}
 
