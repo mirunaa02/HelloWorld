@@ -23,6 +23,8 @@ public class Hotel implements Cloneable{ //Implementam o interfata care este dej
 		Lista.add("Mic Dejun");
 		Lista.add("Loc Parcare");
 		Lista.add("WiFi");
+		Lista.add("Pizza");
+		Lista.add("Paste");
 	}
 	
 	public List<String> Servicii()

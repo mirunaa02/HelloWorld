@@ -37,10 +37,7 @@ public class Turist {
 		
 		
 		System.out.println("-----------------");
-		System.out.println("--- Buna !! ---");
-		
-		System.out.println("-----------------");
-		System.out.println("--- Buna iar !! ---");
+		System.out.println("--- Modificare (Mihaela) !! ---");
 		
 	}
 
