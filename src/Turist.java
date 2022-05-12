@@ -1,49 +1,21 @@
 import java.util.List;
-/**
- * @author Miruna
- * @version 5/4/2022
- */
+
 public class Turist {
 
 	public static void main(String[] args) throws CloneNotSupportedException{
-		Hotel PachetDemi_Pensiune = new Hotel();
-		PachetDemi_Pensiune.ContinutPachet();
-		
-		Hotel PachetALL_Inclusive = (Hotel)PachetDemi_Pensiune.clone();
-		List<String>PachetALL_InclusiveContinut = PachetALL_Inclusive.Servicii();
-		PachetALL_InclusiveContinut.remove("Mic Dejun");
-		PachetALL_InclusiveContinut.add("Bufet Suedez");
-		PachetALL_InclusiveContinut.add("Acces Bar");
-		
-		Hotel PachetPremium = (Hotel)PachetALL_Inclusive.clone();
-		List<String>PachetPremiumContinut = PachetPremium.Servicii();
-		PachetPremiumContinut.add("Ghid Personal");
-		PachetPremiumContinut.add("Acces Piscina");
-		
-		Hotel PachetDELUX = (Hotel)PachetPremium.clone();
-		List<String>PachetDELUXContinut = PachetDELUX.Servicii();
-		PachetDELUXContinut.add("Sala de Fitness");
-		PachetDELUXContinut.add("Spa");
-		PachetDELUXContinut.add("Sauna");
-		
-		Hotel PachetEconomic = (Hotel)PachetDemi_Pensiune.clone();
-		List<String>PachetEconomicContinut = PachetEconomic.Servicii();
-		PachetEconomicContinut.remove("Mic Dejun");
-		PachetEconomicContinut.remove("Loc Parcare");
-		
-		System.out.println("Pachet DemiPensiune :"+PachetDemi_Pensiune.Servicii());
-		System.out.println("Pachet Economic :"+PachetEconomic.Servicii());
-		System.out.println("Pachet ALL-Inclusive :"+PachetALL_Inclusive.Servicii());
-		System.out.println("Pachet Premium :"+PachetPremium.Servicii());
-		System.out.println("Pachet DELUX :"+PachetDELUX.Servicii());
-		
-		
-		System.out.println("-----------------");
-		System.out.println("--- Buna !! ---");
-		
-		System.out.println("-----------------");
-		System.out.println("--- Buna iar !! ---");
-		
+		String s1 = "Shine bright like a diamond";
+	    String s2 = "I choose to be happy";
+	    String s3 = new String("We're like diamonds in the sky");
+	    String s4 = new String("You're a shooting star I see");
+	    System.out.println(s1);
+	    System.out.println(s2);
+	    System.out.println(s3);
+	    System.out.println(s4);
+		System.out.println("Shine bright like a diamond" + s1);
+		System.out.println("Find light in the beautiful sea" + s2);
+		System.out.println("You and I, you and I" + s3);
+		System.out.println(s4 + "A vision of ecstasy" + "When you hold me, I'm alive");
+		System.out.println("We're like diamonds in the sky");
 	}
 
 }
